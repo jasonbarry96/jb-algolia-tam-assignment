@@ -1,5 +1,12 @@
 # Algolia TAM Assignment
 
+Jason Notes:
+
+Front end is hosted here: https://jasonbarry96.github.io/jb-algolia-tam-assignment/
+Answers to the questions from part 2 are included in the questions > questions.md folder.
+
+
+----
 This is the hiring assignment for the TAM Team at Algolia. It’s intended to mimic work you might do here, while giving us an understanding of your skills in:
 
 * Problem Solving  
