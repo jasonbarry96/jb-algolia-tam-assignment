@@ -2,7 +2,8 @@
 
 Jason Notes:
 
-Front end is hosted here: https://jasonbarry96.github.io/jb-algolia-tam-assignment/
+Currently working on local
+
 Answers to the questions from part 2 are included in the questions > questions.md folder.
 
 
