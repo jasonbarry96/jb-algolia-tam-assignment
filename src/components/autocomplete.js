@@ -32,12 +32,12 @@ class Autocomplete {
    */
   _registerClient() {
     this._searchClient = algoliasearch(
-      'L2HQ9IWR9U',
-      '5db317e874e94ec70cec841e8a6ec010'
+      'RM3X4H1SHX',
+      '9876896af399671f15e0dc5498ee0c2c'
     );
 
     this._searchInstance = instantsearch({
-      indexName: 'spencerandwilliams',
+      indexName: 'computer_parts',
       searchClient: this._searchClient,
     });
   }
@@ -63,10 +63,10 @@ class Autocomplete {
             .join('')}
         </ul>`;
       };
-  
+
       const QSHits = connectHits(renderQSHits);
-      
-     //Add Widgets 
+
+     //Add Widgets
     this._searchInstance.addWidgets([
       //Searchbox container - used for both indexes
       searchBox({
@@ -74,7 +74,7 @@ class Autocomplete {
         }),
       //This index displays products
       index({
-        indexName: 'spencerandwilliams',
+        indexName: 'computer_parts',
       }).addWidgets([
         configure({
         hitsPerPage: 3,
@@ -86,7 +86,7 @@ class Autocomplete {
       ]),
       //This index displays suggestions
       index({
-        indexName: 'spencerandwilliams_query_suggestions',
+        indexName: 'computer_parts_query_suggestions',
       }).addWidgets([
         configure({
         hitsPerPage: 16,
